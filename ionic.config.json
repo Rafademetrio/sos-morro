@@ -1,0 +1,7 @@
+{
+  "name": "sos-morro",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
