@@ -1,0 +1,31 @@
+<ion-header collapse="condense">
+  <ion-toolbar>
+    <ion-title size="large">Login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <form (submit)="login2()">
+    <div>
+      <ion-label position="stacked"> Email </ion-label>
+      <ion-input name="email" [(ngModel)]="user.email"></ion-input>
+    </div>
+
+    <div>
+      <ion-label position="stacked"> Senha </ion-label>
+      <ion-input type="password" name="password" [(ngModel)]="user.password"></ion-input>
+    </div>
+
+    <div>
+      <ion-button type="submit" expand="block" name="btn-entrar">Entrar</ion-button>
+    </div>
+
+  </form>
+</ion-content>
+
+
+
+
+
+
